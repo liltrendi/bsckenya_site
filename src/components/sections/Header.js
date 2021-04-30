@@ -31,16 +31,16 @@ const Header = () => (
             </Art>
             <Text>
               <h1>
-                Fast in
+                A high rewards
                 <br />
-                every way
+                deflationary token
                 <br />
-                that matters
+                for the community
               </h1>
               <br />
               <p>
-                <StyledExternalLink href="https://github.com/ajayns/gatsby-absurd">
-                  Check out source &nbsp;&#x2794;
+                <StyledExternalLink href="https://pancakeswap.finance/">
+                  Trade on PancakeSwap &nbsp;&#x2794;
                 </StyledExternalLink>
               </p>
             </Text>

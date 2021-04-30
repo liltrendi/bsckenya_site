@@ -2,13 +2,13 @@ import React from 'react';
 import Helmet from 'react-helmet';
 
 const SEO_DATA = {
-  description: 'An absurd gatsby starter',
-  title: 'Absurd',
+  description: 'An autonomous yield and deflationary token model. This deflationary model works on scarcity. The more transactions that take place results in more tokens decreasing from the total supply.',
+  title: 'BSCKenya | $KENYA',
   url: '',
   author: 'ajayns',
-  keywords: ['gatsby', 'site', 'absurd'],
+  keywords: ['gatsby', 'site', 'bsckenya', 'kenya', 'crypto'],
   img: '',
-  twitterId: '@ajayns_',
+  twitterId: '',
   facebookId: '',
 };
 
