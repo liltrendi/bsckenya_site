@@ -48,13 +48,13 @@ const About = () => (
         <Container>
           <Grid>
             <div>
-              <h2>How it works</h2>
+              <h2>What it is</h2>
               <p>
-                An autonomous yield and deflationary token model. This deflationary model works on scarcity. The more transactions that take place results in more tokens decreasing from the total supply.
+                Founded in Kenya, this token is community-backed charity project that aims to aid the fight against gender-based violence by donating proceeds made to relevant organizations in this field.
               </p>
             </div>
             <Art>
-              <Img fluid={data.art_fast.childImageSharp.fluid} />
+              <Img fluid={data.art_ideas.childImageSharp.fluid} />
             </Art>
           </Grid>
           <Grid inverse>
@@ -62,21 +62,27 @@ const About = () => (
               <Img fluid={data.art_learn.childImageSharp.fluid} />
             </Art>
             <div>
-              <h2>What you gain</h2>
+              <h2>How it works</h2>
               <p>
-                Holders earn passive rewards through static reflection as they watch their balance of $KENYA grow indefinitely. The top 100 holders are rewarded every 24 hours with tokens.
+                Working on scarcity, this project adopts an autonomous yield and deflationary token model. The more transactions that take place results in more tokens decreasing from the total supply. Not only does every trade contribute toward automatically generating liquidity locked inside PancakeSwap LP, but holders also earn passive rewards through static reflection, growing their $KENYA balance indefinitely.
               </p>
             </div>
           </Grid>
           <Grid>
             <div>
-              <h2>Your leverage</h2>
+              <h2>Actual tokenomics</h2>
               <p>
-                The project is community driven. Every trade contributes toward automatically generating liquidity locked inside PancakeSwap LP.
+                Hard-coded into the smart contract are the following tokenomics, we are unable to change them and are fully rug-proof:
+                <ul>
+                  <li><strong>Total Supply</strong>: 1 Quadrillion (1,000 Trillion) $KENYA tokens</li>
+                  <li><strong>Initial Burn</strong>: 50% burnt on fair launch</li>
+                  <li><strong>Taxation</strong>: 10% on every transaction, with 5% redistributed to holders and 5% towards liquidity</li>
+                  <li><strong>Team</strong>: 5% towards development</li>
+                </ul>
               </p>
             </div>
             <Art>
-              <Img fluid={data.art_ideas.childImageSharp.fluid} />
+              <Img fluid={data.art_fast.childImageSharp.fluid} />
             </Art>
           </Grid>
         </Container>
@@ -103,6 +109,10 @@ const Grid = styled.div`
 
   h2 {
     margin-bottom: 16px;
+  }
+
+  ul li {
+    text-align: start;
   }
 
   @media (max-width: ${props => props.theme.screen.md}) {

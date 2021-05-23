@@ -9,7 +9,7 @@ const FAQS = [
     title: 'What DEX is this based on?',
     content: () => (
       <>
-        This project is built upon the ethereum network.
+        This project is built upon the smart chain network.
       </>
     ),
   },
@@ -17,8 +17,7 @@ const FAQS = [
     title: 'What exchanges do you plan on getting listed on?',
     content: () => (
       <>
-        We're currently in talks with some of the biggest exchanges such as Coinbase and Binance,
-        for listing. We shall regularly keep our community up to date with such developments.
+        We're currently in talks with some of the biggest exchanges such as CoinGecko and CoinMarketCap, for listing. We shall regularly keep our community up to date with such developments.
       </>
     ),
   },
